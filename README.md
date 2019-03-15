@@ -128,41 +128,23 @@
 
 <table class="tg">
   <tr>
-    <th class="tg-0pky">Summary<br></th>
-    <th class="tg-0pky">Description</th>
-    <th class="tg-0pky">Acceptance</th>
-    <th class="tg-0pky">Recommendation FP List</th>
+    <th class="tg-0pky">Story<br></th>
+    <th class="tg-0pky">Actual FP List</th>
+    <th class="tg-0pky">Recommendation FP List/Confidence</th>
   </tr>
   <tr>
-    <td class="tg-0pky">作为客户经理，我希望根据我选择的考核时间，查询近24个月的****<br>As a customer manager, I would like to inquire about *** for lastest 24 months according to the assessment time I choose.</td>
-    <td class="tg-0pky">**时间筛选条件*****<br>*** time as filter rule</td>
-    <td class="tg-0pky">1、根据数据获取时间筛选范围。2、初始化时间选择控件。<br>1、To obtain time range filtered with data. 2、To initialize time selection controler.</td>
-    <td class="tg-0pky">考核时间选择<br>Selection of examination time</td>
+    <td class="tg-0pky">作为系统管理员，我希望将新的客户信息添加到系统中，以便于管理客户信息。客户基本信息除备注外均为必填项，联系方式信息应至少包含一种有效联系方式。添加过程中会验证身份证号是否重复，如果重复会提示<br>As a system administrator, I want to add new customer's information to the system to manage customer's information. The customer's basic information is required except for the remarks. The contact information should contain at least one valid contact method. During the adding process, it will verify whether the ID number is duplicated. If it is repeated, it will prompt.</td>
+    <td class="tg-0pky">添加客户信息<br>Add customer's information</td>
+    <td class="tg-0pky">客户信息添加/-1.127306858698527<br>Add customer's information</td>
   </tr>
   <tr>
-    <td class="tg-0pky">作为***管理员，我想要新增某**的******,使得**的******的准确性。<br>As a administer of ***, I would like to add *** to increase ***'s precision.</td>
-    <td class="tg-0pky">1、能成功保存修改的******信息2、**查询功能，能够查询到修改后的******信息3、并能将******回传到***系统<br>1、Could save *** modified successful. 2、The function of search *** could get the *** information modified.3、Could transfer *** back into *** system</td>
-    <td class="tg-0pky">业务要求：该功能隐藏AC1、能成功保存修改的******2、**查询功能，能够查询到修改后的********3、并能将******回传到***系统<br>Business requirements: This function is hidden. AC1、Could save *** modified successful. 2、The function of search *** could get the *** information modified.3、Could transfer *** back into *** system</td>
-    <td class="tg-0pky">******新增<br>Add ***</td>
+    <td class="tg-0pky">作为系统管理员，我希望显示客户信息列表，对选中的客户显示并维护其基本信息。以便于对选中的客户显示并维护其基本信息。<br>修改前需要验证系统管理员密码。<br>As a system administrator, I want to display a list of customer information, display and maintain basic information about selected customers, so that I can display and maintain basic information about selected customers.<br>The system administrator password needs to be verified before modification.<br></td>
+    <td class="tg-0pky">维护客户基本信息<br>Maintain customer's basic information<br><br>显示客户信息<br>Display customer's information</td>
+    <td class="tg-0pky">基本信息维护/-0.9490731557210287<br>Maintain basic information<br><br>系统管理员修改/-1.140566280909947<br>System administrator modification <br> <br>基本信息显示/-1.2586131890614827<br>Display basic information<br><br>信息列表显示/-1.4162368774414062<br>Display basic information list</td>
   </tr>
   <tr>
-    <td class="tg-0pky">作为**人员，我希望在设置****时能够直接进行**操作，以便减少我的操作步骤<br>As a memeber of ***, I would like to operate the *** while setting the *** to reduce operation procedures.</td>
-    <td class="tg-0pky">在****管理  **管理  ****  **结果调整界面，在“添加”和“提交”之间，新加“提交并重对”按钮，点击后提交对应关系，并自动对该**的该调整记录对应的****进行重对处理<br>Add "submmit and revise" button between "Add" and "Submmit" in the interface of *** mangeage, submmit correspond relation after click, and revise the *** correspnded to the adjusted record.</td>
-    <td class="tg-0pky">按钮增加正常点击后，**关系可以建立，并能够正对该调整信息对应的**记录进行重新**<br>After clicking the add button, *** relation can be constructed, and *** the record corresponded to the adjusted information.</td>
-    <td class="tg-0pky">**结果提交并重对<br> *** result submmit and revise</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">作为客户经理，我想希望在客户画像页展示客户的******，以便为客户购买**<br>As a customer manager, I would like to show customer's *** in the page of user profile in order to buy *** for cusomers.</td>
-    <td class="tg-0lax">1、***客户****承受能力评估信息***评估类型代码**:****、**:****2、需要开发CSV接口<br>1、*** customer *** ability of affordability information *** assess code type*** 2、Need to develop interface of CSV</td>
-    <td class="tg-0lax">在客户画像显示******<br>To display *** in the page og user profile</td>
-    <td class="tg-0lax">客户******、******显示<br>Customer ***、*** display</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">作为使用者，我想要看到******的视频和相关文档<br>As a user, I would like to see the *** video and documents related.</td>
-    <td class="tg-0lax">*****页面添加视频和相关文档<br>Add video and documents related in the *** page</td>
-    <td class="tg-0lax">在*****页面，********区域添加第2期的3个视频和相关文档，视频播放和文档下载均正常<br>In *** page, add 3 videos and documents related in *** region, video play and document download works well.</td>
-    <td class="tg-0lax">***视频播放, ***视频下载<br>*** video play, *** video download</td>
+    <td class="tg-0pky">作为系统管理员，我希望输入客户姓名或联系方式，显示查询结果，以便于我查询特定的客户。<br>如果多名用户符合查询条件，则全部显示。<br>As a system administrator, I want to enter the customer's name or contact information to display the results of the query so that I can query a specific customer.<br>If multiple users meet the query criteria, they are all displayed.<br></td>
+    <td class="tg-0pky">客户查询<br>Query customer</td>
+    <td class="tg-0pky">客户查询/-1.1395772695541382<br>Query customer<br><br>查询结果显示/-1.5421965916951497<br>Display query result<br> <br>客户姓名输入/-1.7091108957926433<br>Enter customer's name</td>
   </tr>
 </table>
-
-> We use *** to replace sensitive words in user stories and funtion points.
